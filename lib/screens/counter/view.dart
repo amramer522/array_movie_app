@@ -12,6 +12,7 @@ int buildCount =0;
   @override
   Widget build(BuildContext context) {
     buildCount++;
+    print("Hello");
     print(buildCount);
     return
       BlocProvider<CounterCubit>(create: (context) =>
